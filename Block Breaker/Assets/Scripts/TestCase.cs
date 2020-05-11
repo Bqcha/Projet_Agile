@@ -12,8 +12,8 @@ namespace Bacha.Assets.Scripts
         [TestCase]
         public void ScoreZero()
         {
-           
-            Assert.AreEqual(0, 0);
+            GameSession gameSession = new GameSession();
+            Assert.AreEqual(0, gameSession.ReturnScore());
         }
     }
 }
