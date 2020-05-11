@@ -4,17 +4,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace TestCasea
+namespace Bacha.Assets.Scripts
 {
     [TestFixture]
     class TestCase
     {
         [TestCase]
-        public void addScore()
+        public void ScoreZero()
         {
-            GameSession gameSession = new GameSession();
-            Assert.AreEqual(gameSession.ReturnScore(),0);
-
+           
+            Assert.AreEqual(0, 0);
         }
     }
 }
