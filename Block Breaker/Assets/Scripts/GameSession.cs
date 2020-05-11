@@ -43,7 +43,10 @@ public class GameSession : MonoBehaviour {
         currentScore += pointsPerBlockDestroyed;
         scoreText.text = currentScore.ToString();
     }
-
+    public int ReturnScore()
+    {
+        return currentScore;
+    }
     public void ResetGame()
     {
         Destroy(gameObject);

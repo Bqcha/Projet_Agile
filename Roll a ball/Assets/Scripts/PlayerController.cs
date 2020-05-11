@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
 			count +=1;
 			scoreText.text = "Score: "+ count;
 		}
-		if (count >=8 ){
+		if (count >=4 ){
 			winText.gameObject.SetActive(true);
 		}
 	}
